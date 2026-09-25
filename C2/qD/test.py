@@ -1,0 +1,1 @@
+print("J MPWF CVBB!" == "J MPWF CVBB!")
