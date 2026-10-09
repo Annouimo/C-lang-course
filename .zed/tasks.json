@@ -5,9 +5,9 @@
     "label": "C: Compile and Run",
     "command": "clang",
     "args": [
-      "-g", "$ZED_FILE",
-      "-o", "$ZED_DIRNAME/$ZED_STEM",
-      "&&", "$ZED_DIRNAME/$ZED_STEM"
+      "-g", "\"$ZED_FILE\"",
+      "-o", "\"$ZED_DIRNAME/$ZED_STEM\"",
+      "&&", "\"$ZED_DIRNAME/$ZED_STEM\""
     ],
     "tags": ["c-main"],
     "use_new_terminal": false,
@@ -17,9 +17,9 @@
     "label": "C++: Compile and Run",
     "command": "clang++",
     "args": [
-      "-g", "$ZED_FILE",
-      "-o", "$ZED_DIRNAME/$ZED_STEM",
-      "&&", "$ZED_DIRNAME/$ZED_STEM"
+      "-g", "\"$ZED_FILE\"",
+      "-o", "\"$ZED_DIRNAME/$ZED_STEM\"",
+      "&&", "\"$ZED_DIRNAME/$ZED_STEM\""
     ],
     "tags": ["cpp-main"],
     "use_new_terminal": false,
@@ -29,8 +29,8 @@
     "label": "C/C++: Compile with Warnings",
     "command": "clang",
     "args": [
-      "-Wall", "-Wextra", "-g", "$ZED_FILE",
-      "-o", "$ZED_DIRNAME/$ZED_STEM"
+      "-Wall", "-Wextra", "-g", "\"$ZED_FILE\"",
+      "-o", "\"$ZED_DIRNAME/$ZED_STEM\""
     ],
     "use_new_terminal": false,
     "reveal": "always"

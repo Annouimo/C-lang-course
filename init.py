@@ -5,7 +5,7 @@ name = input("Question name: ")
 
 code = """#include <stdio.h>
 
-int main(){
+int main(void){
 
     return 0;
 }
