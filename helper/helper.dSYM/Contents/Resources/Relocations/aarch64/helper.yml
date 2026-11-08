@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/keen/Documents/大学文档/C-lang-course/helper/helper"
+relocations:     []
+...
